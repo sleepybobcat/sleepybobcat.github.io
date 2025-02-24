@@ -1,7 +1,70 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    z-index: 1000;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
 .logo img {
-    height: 5rem;
+    height: 2.5rem;
     width: auto;
-    object-fit: cover;
+    display: block;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right button {
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.nav-right button:hover {
+    background-color: rgb(200, 153, 241);
+    color: black;
+}
+
+main {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.joke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(200, 153, 241);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#jokeContainer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
 }
 
 h1 {
@@ -12,6 +75,6 @@ h1 {
 
 p {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1rem;
 }
